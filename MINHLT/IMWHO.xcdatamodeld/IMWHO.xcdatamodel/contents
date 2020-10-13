@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Thought" representedClassName="Thought" syncable="YES" codeGenerationType="class">
+        <attribute name="thoughtTitle" optional="YES" attributeType="String"/>
+        <attribute name="timestamp" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Thought" positionX="-63" positionY="-18" width="128" height="73"/>
+    </elements>
+</model>
