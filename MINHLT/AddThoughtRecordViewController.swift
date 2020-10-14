@@ -13,7 +13,7 @@ class AddThoughtRecordViewController: UIViewController, UITextViewDelegate {
 
     @IBOutlet weak var thghtTitleTxt: UITextField!
     @IBOutlet weak var situationTxt: UITextView!
-    @IBOutlet weak var thoughtsTxt: UITextView!
+    @IBOutlet weak var thoughtTxt: UITextView!
     @IBOutlet weak var emotionsTxt: UITextView!
     @IBOutlet weak var behaviorTxt: UITextView!
     @IBOutlet weak var alterThghtTxt: UITextView!
@@ -27,11 +27,11 @@ class AddThoughtRecordViewController: UIViewController, UITextViewDelegate {
         situationTxt.textColor = UIColor.lightGray
         situationTxt.delegate = self
         
-        thoughtsTxt.isScrollEnabled = false
-        thoughtsTxt.keyboardDismissMode = .onDrag
-        thoughtsTxt.text = "I'm thinking..."
-        thoughtsTxt.textColor = UIColor.lightGray
-        thoughtsTxt.delegate = self
+        thoughtTxt.isScrollEnabled = false
+        thoughtTxt.keyboardDismissMode = .onDrag
+        thoughtTxt.text = "I'm thinking..."
+        thoughtTxt.textColor = UIColor.lightGray
+        thoughtTxt.delegate = self
         
         emotionsTxt.isScrollEnabled = false
         emotionsTxt.keyboardDismissMode = .onDrag
@@ -82,6 +82,11 @@ class AddThoughtRecordViewController: UIViewController, UITextViewDelegate {
         
         thought.thoughtTitle = thghtTitleTxt.text
         thought.timestamp = "\(date), \(hour), \(minutes)"
+        thought.situation = situationTxt.text
+        thought.thought = thoughtTxt.text
+        thought.emotions = emotionsTxt.text
+        thought.behavior = behaviorTxt.text
+        thought.alterThght = alterThghtTxt.text
         
         do {
             try managedContext.save()

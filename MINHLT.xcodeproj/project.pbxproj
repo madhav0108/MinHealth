@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A94202C32536576B0025BEC3 /* ViewThoughtRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94202C22536576B0025BEC3 /* ViewThoughtRecordViewController.swift */; };
 		A9B41356252E9B8A00B8C564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B41355252E9B8A00B8C564 /* AppDelegate.swift */; };
 		A9B41358252E9B8A00B8C564 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B41357252E9B8A00B8C564 /* SceneDelegate.swift */; };
 		A9B4135A252E9B8A00B8C564 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B41359252E9B8A00B8C564 /* ViewController.swift */; };
@@ -28,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A94202C22536576B0025BEC3 /* ViewThoughtRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThoughtRecordViewController.swift; sourceTree = "<group>"; };
+		A94202C5253662550025BEC3 /* MINHLT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MINHLT.xcdatamodel; sourceTree = "<group>"; };
 		A9B41352252E9B8A00B8C564 /* MINHLT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MINHLT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B41355252E9B8A00B8C564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9B41357252E9B8A00B8C564 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +96,7 @@
 				A9CEDB74252FD791000FE888 /* ThoughtRecordInfoViewController.swift */,
 				A9B4136E252EB9EE00B8C564 /* ThoughtRecordsViewController.swift */,
 				A9CEDB78252FEEA9000FE888 /* AddThoughtRecordViewController.swift */,
+				A94202C22536576B0025BEC3 /* ViewThoughtRecordViewController.swift */,
 				A9B41370252EC04A00B8C564 /* ThoughtCell.swift */,
 				A9CEDB76252FDE51000FE888 /* UIViewExt.swift */,
 				A9CEDB7A252FFBA5000FE888 /* UIViewControllerExt.swift */,
@@ -186,6 +190,7 @@
 				A9CEDB77252FDE51000FE888 /* UIViewExt.swift in Sources */,
 				A9B41358252E9B8A00B8C564 /* SceneDelegate.swift in Sources */,
 				A9C6806E25329D1800F17F34 /* ThoughtsOnTrialInfoViewController.swift in Sources */,
+				A94202C32536576B0025BEC3 /* ViewThoughtRecordViewController.swift in Sources */,
 				A9B41371252EC04A00B8C564 /* ThoughtCell.swift in Sources */,
 				A9B4136D252EB9D100B8C564 /* MinHealthViewController.swift in Sources */,
 				A9CEDB75252FD791000FE888 /* ThoughtRecordInfoViewController.swift in Sources */,
@@ -393,9 +398,10 @@
 		A9B4135E252E9B8A00B8C564 /* IMWHO.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				A94202C5253662550025BEC3 /* MINHLT.xcdatamodel */,
 				A9B4135F252E9B8A00B8C564 /* IMWHO.xcdatamodel */,
 			);
-			currentVersion = A9B4135F252E9B8A00B8C564 /* IMWHO.xcdatamodel */;
+			currentVersion = A94202C5253662550025BEC3 /* MINHLT.xcdatamodel */;
 			path = IMWHO.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
