@@ -12,6 +12,7 @@ import CoreData
 class ViewThoughtRecordViewController: UIViewController, UITextViewDelegate {
     
     var thoughts: [Thought] = []
+    var thoughtRowIndex: NSInteger?
 
     @IBOutlet weak var thghtTitleTxt: UITextField!
     @IBOutlet weak var situationTxt: UITextView!
@@ -71,7 +72,7 @@ class ViewThoughtRecordViewController: UIViewController, UITextViewDelegate {
 
 extension ViewThoughtRecordViewController {
     override func viewDidAppear(_ animated: Bool) {
-        let thought = thoughts[0]
+        let thought = thoughts[thoughtRowIndex!]
         
         thghtTitleTxt.text = thought.thoughtTitle
         situationTxt.text = thought.situation

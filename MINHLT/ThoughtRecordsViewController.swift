@@ -16,6 +16,7 @@ class ThoughtRecordsViewController: ViewController {
     @IBOutlet weak var tableView: UITableView!
     
     var thoughts: [Thought] = []
+    var thoughtRowIndex: NSInteger?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -105,6 +106,16 @@ extension ThoughtRecordsViewController: UITableViewDelegate, UITableViewDataSour
         let actions = UISwipeActionsConfiguration(actions: [contextItem])
                 
         return actions
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "viewThoughtRecord") {
+            let viewThoughtRecordViewController = segue.destination as! ViewThoughtRecordViewController
+            
+            if let index = tableView.indexPathForSelectedRow {
+                viewThoughtRecordViewController.thoughtRowIndex = index.row
+            }
+        }
     }
 }
 
