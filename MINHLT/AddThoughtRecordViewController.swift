@@ -22,32 +22,47 @@ class AddThoughtRecordViewController: UIViewController, UITextViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         situationTxt.isScrollEnabled = false
+        situationTxt.layer.borderWidth = 1.0
+        situationTxt.layer.borderColor = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5725490196, alpha: 0.5)
+        situationTxt.layer.cornerRadius = 10.0
         situationTxt.keyboardDismissMode = .onDrag
-        situationTxt.text = "I was at..."
+        situationTxt.text = "Describe what was happening: Who, what, when where?"
         situationTxt.textColor = UIColor.lightGray
         situationTxt.delegate = self
         
         thoughtTxt.isScrollEnabled = false
+        thoughtTxt.layer.borderWidth = 1.0
+        thoughtTxt.layer.borderColor = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5725490196, alpha: 0.5)
+        thoughtTxt.layer.cornerRadius = 10.0
         thoughtTxt.keyboardDismissMode = .onDrag
-        thoughtTxt.text = "I'm thinking..."
+        thoughtTxt.text = "What thoughts were going through your mind? What memories or images were in your mind?"
         thoughtTxt.textColor = UIColor.lightGray
         thoughtTxt.delegate = self
         
         emotionsTxt.isScrollEnabled = false
+        emotionsTxt.layer.borderWidth = 1.0
+        emotionsTxt.layer.borderColor = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5725490196, alpha: 0.5)
+        emotionsTxt.layer.cornerRadius = 10.0
         emotionsTxt.keyboardDismissMode = .onDrag
-        emotionsTxt.text = "I feel..."
+        emotionsTxt.text = "What emotions did you feel at that time? How intense were they?"
         emotionsTxt.textColor = UIColor.lightGray
         emotionsTxt.delegate = self
         
         behaviorTxt.isScrollEnabled = false
+        behaviorTxt.layer.borderWidth = 1.0
+        behaviorTxt.layer.borderColor = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5725490196, alpha: 0.5)
+        behaviorTxt.layer.cornerRadius = 10.0
         behaviorTxt.keyboardDismissMode = .onDrag
-        behaviorTxt.text = "I am..."
+        behaviorTxt.text = "How did you react at that time? How has your behavior been since then?"
         behaviorTxt.textColor = UIColor.lightGray
         behaviorTxt.delegate = self
         
         alterThghtTxt.isScrollEnabled = false
+        alterThghtTxt.layer.borderWidth = 1.0
+        alterThghtTxt.layer.borderColor = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5725490196, alpha: 0.5)
+        alterThghtTxt.layer.cornerRadius = 10.0
         alterThghtTxt.keyboardDismissMode = .onDrag
-        alterThghtTxt.text = "An alternate thought is..."
+        alterThghtTxt.text = "A new thought based on the evidence for and against the original thought"
         alterThghtTxt.textColor = UIColor.lightGray
         alterThghtTxt.delegate = self
         

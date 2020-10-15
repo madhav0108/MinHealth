@@ -20,7 +20,7 @@ class ViewThoughtRecordViewController: UIViewController, UITextViewDelegate {
     @IBOutlet weak var emotionsTxt: UITextView!
     @IBOutlet weak var behaviorTxt: UITextView!
     @IBOutlet weak var alterThghtTxt: UITextView!
-    @IBOutlet weak var submitBtn: UIButton!
+    @IBOutlet weak var bigBackBtn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,8 +44,8 @@ class ViewThoughtRecordViewController: UIViewController, UITextViewDelegate {
         alterThghtTxt.keyboardDismissMode = .onDrag
         alterThghtTxt.delegate = self
 
-        submitBtn.layer.cornerRadius = 10.0
-        submitBtn.isHidden = true
+        bigBackBtn.layer.cornerRadius = 10.0
+        bigBackBtn.isHidden = false
         
         self.hideKeyboardWhenTappedAround()
         // Do any additional setup after loading the view.
@@ -67,7 +67,10 @@ class ViewThoughtRecordViewController: UIViewController, UITextViewDelegate {
     @IBAction func backBtnPressed(_ sender: Any) {
         dismissDetail()
     }
-
+    @IBAction func bigBackBtnPressed(_ sender: Any) {
+        dismissDetail()
+    }
+    
 }
 
 extension ViewThoughtRecordViewController {
