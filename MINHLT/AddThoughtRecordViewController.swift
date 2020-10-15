@@ -77,11 +77,16 @@ class AddThoughtRecordViewController: UIViewController, UITextViewDelegate {
         
         let date = Date()
         let calendar = Calendar.current
-        let hour = calendar.component(.hour, from: date)
-        let minutes = calendar.component(.minute, from: date)
+        //let hour = calendar.component(.hour, from: date)
+        //let minute = calendar.component(.minute, from: date)
+        //let second = calendar.component(.second, from: date)
+
+        let year = calendar.component(.year, from: date)
+        let month = calendar.component(.month, from: date)
+        let day = calendar.component(.day, from: date)
         
         thought.thoughtTitle = thghtTitleTxt.text
-        thought.timestamp = "\(date), \(hour), \(minutes)"
+        thought.timestamp = "\(day)/\(month)/\(year)"
         thought.situation = situationTxt.text
         thought.thought = thoughtTxt.text
         thought.emotions = emotionsTxt.text

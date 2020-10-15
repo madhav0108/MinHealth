@@ -85,9 +85,41 @@ extension ThoughtRecordsViewController: UITableViewDelegate, UITableViewDataSour
         return cell
     }
     
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+            return true
+    }
+    func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
+            //return UITableViewCell.EditingStyle.none
+            return .none
+    }
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let contextItem = UIContextualAction(style: .destructive, title: "Delete") { (contextualAction, view, boolValue) in
+            self.removeThought(atIndexPath: indexPath)
+            self.fetchCoreDataObjects()
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+            tableView.reloadData()
+        }
+        
+        contextItem.backgroundColor = #colorLiteral(red: 0.9254901961, green: 0.3019607843, blue: 0.2705882353, alpha: 0.952349101)
+        //let deleteAction = UISwipeActionsConfiguration(actions: [contextItem])
+        let actions = UISwipeActionsConfiguration(actions: [contextItem])
+                
+        return actions
+    }
 }
 
 extension ThoughtRecordsViewController {
+    
+    func removeThought(atIndexPath indexPath: IndexPath) {
+        guard let managedContext = appDelegate?.persistentContainer.viewContext else {return}
+        managedContext.delete(thoughts[indexPath.row])
+        do{
+            try managedContext.save()
+            print("remove was successful")
+        } catch{
+            debugPrint("Couldn't remove: \(error.localizedDescription)")
+        }
+    }
     
     func fetch(completion: (_ complete: Bool) -> ()) {
         guard let managedContext = appDelegate?.persistentContainer.viewContext else {return}
@@ -97,7 +129,7 @@ extension ThoughtRecordsViewController {
         
         do {
             thoughts = try managedContext.fetch(fetchRequest)
-            print("Successfully fetched")
+            print("fetch was successful")
             completion(true)
         } catch {
             debugPrint("Couldn't fetch: \(error.localizedDescription)")
