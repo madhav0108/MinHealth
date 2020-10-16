@@ -176,8 +176,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Djx-vi-juB">
-                                <rect key="frame" x="30" y="200" width="315" height="191.33333333333337"/>
-                                <string key="text">Keeping a Thought Record is a great tool to help change thoughts. Thought records are used to teach clients about the interactions between thoughts, feelings, and behaviors, and is used for clients to record their own experiences. In terms of cognitive restructuring, keeping a thought record is a great place to begin challenging irrational thoughts.</string>
+                                <rect key="frame" x="30" y="200" width="315" height="255"/>
+                                <string key="text">Keeping a Thought Record is a great tool to help challenge your thoughts. It is a series of questions that lead you step-by-step through the process of identifying negative irrational thoughts and changing it. Quick and automatic thoughts are very believable, but they can be inaccurate because they are often based on assumptions and not facts. In terms of cognitive restructuring, keeping a thought record helps you practice thinking in fair and balanced ways.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -188,8 +188,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="mFg-7d-kzs"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="24"/>
-                                <state key="normal" title="My Thought Records">
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="24"/>
+                                <state key="normal" title="My Records">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -799,7 +799,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3sY-7n-eRx">
                                 <rect key="frame" x="30" y="200" width="315" height="233.66666666666663"/>
-                                <string key="text">The Thoughts on Trial Worksheet is a Cognitive Behavioral Therapy activity focused on the logical examination of irrational thoughts. In this exercise, you act as your own advocate as you puts himself in different positions. Just like in a real courtroom, you are forced to recognize that you can only work with hard cold facts. This exercise is extremely valuable because it helps someone see things from different perspectives.</string>
+                                <string key="text">Putting Thoughts on Trial Worksheet is a Cognitive Behavioral Therapy exercise focused on the logical examination of irrational thoughts. In this exercise, you act as your own advocate as you puts himself in different positions. Just like in a real courtroom, you are forced to recognize that you can only work with hard cold facts. This exercise is extremely valuable because it helps someone see things from different perspectives.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1048,8 +1048,8 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="337.66666666666669" height="135.33333333333334"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Describe the situation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qxY-aB-1F4">
-                                                                <rect key="frame" x="0.0" y="0.0" width="214" height="27.333333333333332"/>
-                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="23"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="206.33333333333334" height="27.333333333333332"/>
+                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="23"/>
                                                                 <color key="textColor" systemColor="systemGrayColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -1060,7 +1060,7 @@
                                                                     <constraint firstAttribute="height" constant="100" id="s1x-j2-OdW"/>
                                                                 </constraints>
                                                                 <color key="textColor" systemColor="labelColor"/>
-                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
                                                         </subviews>
@@ -1073,8 +1073,8 @@
                                                         <rect key="frame" x="0.0" y="158.33333333333331" width="337.66666666666669" height="135.33333333333331"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Describe your thoughts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CCL-lr-ahw">
-                                                                <rect key="frame" x="0.0" y="0.0" width="230.66666666666666" height="27.333333333333332"/>
-                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="23"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="222.66666666666666" height="27.333333333333332"/>
+                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="23"/>
                                                                 <color key="textColor" systemColor="systemGrayColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -1085,7 +1085,7 @@
                                                                     <constraint firstAttribute="height" constant="100" id="6la-be-QUZ"/>
                                                                 </constraints>
                                                                 <color key="textColor" systemColor="labelColor"/>
-                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
                                                         </subviews>
@@ -1098,8 +1098,8 @@
                                                         <rect key="frame" x="0.0" y="316.66666666666663" width="337.66666666666669" height="135.33333333333337"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Describe your emotions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gnR-8O-fGJ">
-                                                                <rect key="frame" x="0.0" y="0.0" width="234.33333333333334" height="27.333333333333332"/>
-                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="23"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="227" height="27.333333333333332"/>
+                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="23"/>
                                                                 <color key="textColor" systemColor="systemGrayColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -1110,7 +1110,7 @@
                                                                     <constraint firstAttribute="height" constant="100" id="Kai-iA-T2i"/>
                                                                 </constraints>
                                                                 <color key="textColor" systemColor="labelColor"/>
-                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
                                                         </subviews>
@@ -1123,8 +1123,8 @@
                                                         <rect key="frame" x="0.0" y="474.99999999999994" width="337.66666666666669" height="135.33333333333331"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Describe your behavior" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHh-ZM-rUO">
-                                                                <rect key="frame" x="0.0" y="0.0" width="227.66666666666666" height="27.333333333333332"/>
-                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="23"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="220" height="27.333333333333332"/>
+                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="23"/>
                                                                 <color key="textColor" systemColor="systemGrayColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -1135,7 +1135,7 @@
                                                                     <constraint firstAttribute="height" constant="100" id="9fx-c9-y2M"/>
                                                                 </constraints>
                                                                 <color key="textColor" systemColor="labelColor"/>
-                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
                                                         </subviews>
@@ -1148,8 +1148,8 @@
                                                         <rect key="frame" x="0.0" y="633.33333333333337" width="337.66666666666669" height="135.33333333333337"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Any alternate thoughts?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WEC-9K-hSy">
-                                                                <rect key="frame" x="0.0" y="0.0" width="235.66666666666666" height="27.333333333333332"/>
-                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="23"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="224.66666666666666" height="27.333333333333332"/>
+                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="23"/>
                                                                 <color key="textColor" systemColor="systemGrayColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -1160,7 +1160,7 @@
                                                                     <constraint firstAttribute="height" constant="100" id="8R1-Nc-aHV"/>
                                                                 </constraints>
                                                                 <color key="textColor" systemColor="labelColor"/>
-                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                             </textView>
                                                         </subviews>

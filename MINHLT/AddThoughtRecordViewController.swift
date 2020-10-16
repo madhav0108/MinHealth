@@ -26,7 +26,7 @@ class AddThoughtRecordViewController: UIViewController, UITextViewDelegate {
         situationTxt.layer.borderColor = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5725490196, alpha: 0.5)
         situationTxt.layer.cornerRadius = 10.0
         situationTxt.keyboardDismissMode = .onDrag
-        situationTxt.text = "Describe what was happening: Who, what, when where?"
+        situationTxt.text = "Try to describe what happened: who, what, when and where?"
         situationTxt.textColor = UIColor.lightGray
         situationTxt.delegate = self
         
@@ -35,7 +35,7 @@ class AddThoughtRecordViewController: UIViewController, UITextViewDelegate {
         thoughtTxt.layer.borderColor = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5725490196, alpha: 0.5)
         thoughtTxt.layer.cornerRadius = 10.0
         thoughtTxt.keyboardDismissMode = .onDrag
-        thoughtTxt.text = "What thoughts were going through your mind? What memories or images were in your mind?"
+        thoughtTxt.text = "What thoughts, what memories or images were in your mind?"
         thoughtTxt.textColor = UIColor.lightGray
         thoughtTxt.delegate = self
         
@@ -62,7 +62,7 @@ class AddThoughtRecordViewController: UIViewController, UITextViewDelegate {
         alterThghtTxt.layer.borderColor = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5725490196, alpha: 0.5)
         alterThghtTxt.layer.cornerRadius = 10.0
         alterThghtTxt.keyboardDismissMode = .onDrag
-        alterThghtTxt.text = "A new thought based on the evidence for and against the original thought"
+        alterThghtTxt.text = "A new thought based on the evidence for and against the original thought."
         alterThghtTxt.textColor = UIColor.lightGray
         alterThghtTxt.delegate = self
         
