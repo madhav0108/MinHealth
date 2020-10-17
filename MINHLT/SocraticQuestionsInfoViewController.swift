@@ -18,6 +18,16 @@ class SocraticQuestionsInfoViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func myQuestsBtnPressed(_ sender: Any) {
+        guard let socraticQuestsViewController = storyboard?.instantiateViewController(withIdentifier: "SocraticQuestsViewController")
+            else {
+                return
+        }
+        //to switch default annoying card-view to fullscreen-view
+        //using a segue programmatically
+        socraticQuestsViewController.modalPresentationStyle = .fullScreen
+        presentDetail(socraticQuestsViewController)
+    }
     @IBAction func backBtnPressed(_ sender: Any) {
         dismissDetail()
     }

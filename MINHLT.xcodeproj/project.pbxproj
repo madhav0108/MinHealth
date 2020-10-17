@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		A94202C32536576B0025BEC3 /* ViewThoughtRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94202C22536576B0025BEC3 /* ViewThoughtRecordViewController.swift */; };
+		A98A0ACD2539A4FF005D3C88 /* SocraticQuestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98A0ACC2539A4FF005D3C88 /* SocraticQuestsViewController.swift */; };
+		A98A0AD02539A7C4005D3C88 /* QuestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98A0ACF2539A7C4005D3C88 /* QuestCell.swift */; };
+		A98A0AD52539C9FF005D3C88 /* NewSocraticQuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98A0AD42539C9FF005D3C88 /* NewSocraticQuestViewController.swift */; };
+		A98A0AE7253AD811005D3C88 /* IMWHO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A98A0AE2253AD811005D3C88 /* IMWHO.xcdatamodeld */; };
 		A9B41356252E9B8A00B8C564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B41355252E9B8A00B8C564 /* AppDelegate.swift */; };
 		A9B41358252E9B8A00B8C564 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B41357252E9B8A00B8C564 /* SceneDelegate.swift */; };
 		A9B4135A252E9B8A00B8C564 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B41359252E9B8A00B8C564 /* ViewController.swift */; };
 		A9B4135D252E9B8A00B8C564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B4135B252E9B8A00B8C564 /* Main.storyboard */; };
-		A9B41360252E9B8A00B8C564 /* IMWHO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9B4135E252E9B8A00B8C564 /* IMWHO.xcdatamodeld */; };
 		A9B41362252E9B8C00B8C564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B41361252E9B8C00B8C564 /* Assets.xcassets */; };
 		A9B41365252E9B8C00B8C564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B41363252E9B8C00B8C564 /* LaunchScreen.storyboard */; };
 		A9B4136D252EB9D100B8C564 /* MinHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B4136C252EB9D100B8C564 /* MinHealthViewController.swift */; };
@@ -30,13 +33,18 @@
 
 /* Begin PBXFileReference section */
 		A94202C22536576B0025BEC3 /* ViewThoughtRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThoughtRecordViewController.swift; sourceTree = "<group>"; };
-		A94202C5253662550025BEC3 /* MINHLT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MINHLT.xcdatamodel; sourceTree = "<group>"; };
+		A98A0ACC2539A4FF005D3C88 /* SocraticQuestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocraticQuestsViewController.swift; sourceTree = "<group>"; };
+		A98A0ACF2539A7C4005D3C88 /* QuestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestCell.swift; sourceTree = "<group>"; };
+		A98A0AD42539C9FF005D3C88 /* NewSocraticQuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSocraticQuestViewController.swift; sourceTree = "<group>"; };
+		A98A0AE3253AD811005D3C88 /* MINHLTv3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MINHLTv3.xcdatamodel; sourceTree = "<group>"; };
+		A98A0AE4253AD811005D3C88 /* MINHLTv2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MINHLTv2.xcdatamodel; sourceTree = "<group>"; };
+		A98A0AE5253AD811005D3C88 /* IMWHO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IMWHO.xcdatamodel; sourceTree = "<group>"; };
+		A98A0AE6253AD811005D3C88 /* MINHLT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MINHLT.xcdatamodel; sourceTree = "<group>"; };
 		A9B41352252E9B8A00B8C564 /* MINHLT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MINHLT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B41355252E9B8A00B8C564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9B41357252E9B8A00B8C564 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A9B41359252E9B8A00B8C564 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A9B4135C252E9B8A00B8C564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A9B4135F252E9B8A00B8C564 /* IMWHO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IMWHO.xcdatamodel; sourceTree = "<group>"; };
 		A9B41361252E9B8C00B8C564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9B41364252E9B8C00B8C564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9B41366252E9B8C00B8C564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +91,7 @@
 		A9B41354252E9B8A00B8C564 /* MINHLT */ = {
 			isa = PBXGroup;
 			children = (
+				A98A0AE2253AD811005D3C88 /* IMWHO.xcdatamodeld */,
 				A9B41355252E9B8A00B8C564 /* AppDelegate.swift */,
 				A9B41357252E9B8A00B8C564 /* SceneDelegate.swift */,
 				A9B41359252E9B8A00B8C564 /* ViewController.swift */,
@@ -90,7 +99,6 @@
 				A9B41361252E9B8C00B8C564 /* Assets.xcassets */,
 				A9B41363252E9B8C00B8C564 /* LaunchScreen.storyboard */,
 				A9B41366252E9B8C00B8C564 /* Info.plist */,
-				A9B4135E252E9B8A00B8C564 /* IMWHO.xcdatamodeld */,
 				A9C6807F25347C3B00F17F34 /* MINHLTViewController.swift */,
 				A9B4136C252EB9D100B8C564 /* MinHealthViewController.swift */,
 				A9CEDB74252FD791000FE888 /* ThoughtRecordInfoViewController.swift */,
@@ -101,6 +109,9 @@
 				A9CEDB76252FDE51000FE888 /* UIViewExt.swift */,
 				A9CEDB7A252FFBA5000FE888 /* UIViewControllerExt.swift */,
 				A9C6806A25329CF400F17F34 /* SocraticQuestionsInfoViewController.swift */,
+				A98A0ACC2539A4FF005D3C88 /* SocraticQuestsViewController.swift */,
+				A98A0AD42539C9FF005D3C88 /* NewSocraticQuestViewController.swift */,
+				A98A0ACF2539A7C4005D3C88 /* QuestCell.swift */,
 				A9C6806D25329D1800F17F34 /* ThoughtsOnTrialInfoViewController.swift */,
 				A9C6807025329D4400F17F34 /* LetWorryGoInfoViewController.swift */,
 			);
@@ -185,14 +196,17 @@
 				A9C6806B25329CF400F17F34 /* SocraticQuestionsInfoViewController.swift in Sources */,
 				A9CEDB79252FEEA9000FE888 /* AddThoughtRecordViewController.swift in Sources */,
 				A9B41356252E9B8A00B8C564 /* AppDelegate.swift in Sources */,
-				A9B41360252E9B8A00B8C564 /* IMWHO.xcdatamodeld in Sources */,
+				A98A0AD52539C9FF005D3C88 /* NewSocraticQuestViewController.swift in Sources */,
 				A9B4136F252EB9EE00B8C564 /* ThoughtRecordsViewController.swift in Sources */,
 				A9CEDB77252FDE51000FE888 /* UIViewExt.swift in Sources */,
 				A9B41358252E9B8A00B8C564 /* SceneDelegate.swift in Sources */,
+				A98A0AE7253AD811005D3C88 /* IMWHO.xcdatamodeld in Sources */,
 				A9C6806E25329D1800F17F34 /* ThoughtsOnTrialInfoViewController.swift in Sources */,
+				A98A0AD02539A7C4005D3C88 /* QuestCell.swift in Sources */,
 				A94202C32536576B0025BEC3 /* ViewThoughtRecordViewController.swift in Sources */,
 				A9B41371252EC04A00B8C564 /* ThoughtCell.swift in Sources */,
 				A9B4136D252EB9D100B8C564 /* MinHealthViewController.swift in Sources */,
+				A98A0ACD2539A4FF005D3C88 /* SocraticQuestsViewController.swift in Sources */,
 				A9CEDB75252FD791000FE888 /* ThoughtRecordInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,13 +409,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A9B4135E252E9B8A00B8C564 /* IMWHO.xcdatamodeld */ = {
+		A98A0AE2253AD811005D3C88 /* IMWHO.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A94202C5253662550025BEC3 /* MINHLT.xcdatamodel */,
-				A9B4135F252E9B8A00B8C564 /* IMWHO.xcdatamodel */,
+				A98A0AE3253AD811005D3C88 /* MINHLTv3.xcdatamodel */,
+				A98A0AE4253AD811005D3C88 /* MINHLTv2.xcdatamodel */,
+				A98A0AE5253AD811005D3C88 /* IMWHO.xcdatamodel */,
+				A98A0AE6253AD811005D3C88 /* MINHLT.xcdatamodel */,
 			);
-			currentVersion = A94202C5253662550025BEC3 /* MINHLT.xcdatamodel */;
+			currentVersion = A98A0AE3253AD811005D3C88 /* MINHLTv3.xcdatamodel */;
 			path = IMWHO.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
