@@ -21,7 +21,7 @@ class AddThoughtRecordViewController: UIViewController, UITextViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        situationTxt.isScrollEnabled = false
+        situationTxt.isScrollEnabled = true
         situationTxt.layer.borderWidth = 1.0
         situationTxt.layer.borderColor = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5725490196, alpha: 0.5)
         situationTxt.layer.cornerRadius = 10.0
@@ -30,7 +30,7 @@ class AddThoughtRecordViewController: UIViewController, UITextViewDelegate {
         situationTxt.textColor = UIColor.lightGray
         situationTxt.delegate = self
         
-        thoughtTxt.isScrollEnabled = false
+        thoughtTxt.isScrollEnabled = true
         thoughtTxt.layer.borderWidth = 1.0
         thoughtTxt.layer.borderColor = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5725490196, alpha: 0.5)
         thoughtTxt.layer.cornerRadius = 10.0
@@ -39,7 +39,7 @@ class AddThoughtRecordViewController: UIViewController, UITextViewDelegate {
         thoughtTxt.textColor = UIColor.lightGray
         thoughtTxt.delegate = self
         
-        emotionsTxt.isScrollEnabled = false
+        emotionsTxt.isScrollEnabled = true
         emotionsTxt.layer.borderWidth = 1.0
         emotionsTxt.layer.borderColor = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5725490196, alpha: 0.5)
         emotionsTxt.layer.cornerRadius = 10.0
@@ -48,7 +48,7 @@ class AddThoughtRecordViewController: UIViewController, UITextViewDelegate {
         emotionsTxt.textColor = UIColor.lightGray
         emotionsTxt.delegate = self
         
-        behaviorTxt.isScrollEnabled = false
+        behaviorTxt.isScrollEnabled = true
         behaviorTxt.layer.borderWidth = 1.0
         behaviorTxt.layer.borderColor = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5725490196, alpha: 0.5)
         behaviorTxt.layer.cornerRadius = 10.0
@@ -57,7 +57,7 @@ class AddThoughtRecordViewController: UIViewController, UITextViewDelegate {
         behaviorTxt.textColor = UIColor.lightGray
         behaviorTxt.delegate = self
         
-        alterThghtTxt.isScrollEnabled = false
+        alterThghtTxt.isScrollEnabled = true
         alterThghtTxt.layer.borderWidth = 1.0
         alterThghtTxt.layer.borderColor = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5725490196, alpha: 0.5)
         alterThghtTxt.layer.cornerRadius = 10.0

@@ -24,23 +24,23 @@ class ViewThoughtRecordViewController: UIViewController, UITextViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        situationTxt.isScrollEnabled = false
+        situationTxt.isScrollEnabled = true
         situationTxt.keyboardDismissMode = .onDrag
         situationTxt.delegate = self
         
-        thoughtTxt.isScrollEnabled = false
+        thoughtTxt.isScrollEnabled = true
         thoughtTxt.keyboardDismissMode = .onDrag
         thoughtTxt.delegate = self
         
-        emotionsTxt.isScrollEnabled = false
+        emotionsTxt.isScrollEnabled = true
         emotionsTxt.keyboardDismissMode = .onDrag
         emotionsTxt.delegate = self
         
-        behaviorTxt.isScrollEnabled = false
+        behaviorTxt.isScrollEnabled = true
         behaviorTxt.keyboardDismissMode = .onDrag
         behaviorTxt.delegate = self
         
-        alterThghtTxt.isScrollEnabled = false
+        alterThghtTxt.isScrollEnabled = true
         alterThghtTxt.keyboardDismissMode = .onDrag
         alterThghtTxt.delegate = self
 
@@ -84,7 +84,6 @@ extension ViewThoughtRecordViewController {
         behaviorTxt.text = thought.behavior
         alterThghtTxt.text = thought.alterThght
         
-        //situationTxt.text = thought
     }
 }
 

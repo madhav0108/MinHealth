@@ -25,7 +25,7 @@ class NewSocraticQuestViewController: UIViewController, UITextViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        evidenceTxt.isScrollEnabled = false
+        evidenceTxt.isScrollEnabled = true
         evidenceTxt.layer.borderWidth = 1.0
         evidenceTxt.layer.borderColor = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5725490196, alpha: 0.5)
         evidenceTxt.layer.cornerRadius = 10.0
@@ -34,7 +34,7 @@ class NewSocraticQuestViewController: UIViewController, UITextViewDelegate {
         evidenceTxt.textColor = UIColor.lightGray
         evidenceTxt.delegate = self
         
-        factsOrFeelingsTxt.isScrollEnabled = false
+        factsOrFeelingsTxt.isScrollEnabled = true
         factsOrFeelingsTxt.layer.borderWidth = 1.0
         factsOrFeelingsTxt.layer.borderColor = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5725490196, alpha: 0.5)
         factsOrFeelingsTxt.layer.cornerRadius = 10.0
@@ -43,7 +43,7 @@ class NewSocraticQuestViewController: UIViewController, UITextViewDelegate {
         factsOrFeelingsTxt.textColor = UIColor.lightGray
         factsOrFeelingsTxt.delegate = self
         
-        blacknWhiteTxt.isScrollEnabled = false
+        blacknWhiteTxt.isScrollEnabled = true
         blacknWhiteTxt.layer.borderWidth = 1.0
         blacknWhiteTxt.layer.borderColor = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5725490196, alpha: 0.5)
         blacknWhiteTxt.layer.cornerRadius = 10.0
@@ -52,7 +52,7 @@ class NewSocraticQuestViewController: UIViewController, UITextViewDelegate {
         blacknWhiteTxt.textColor = UIColor.lightGray
         blacknWhiteTxt.delegate = self
         
-        assumptionsTxt.isScrollEnabled = false
+        assumptionsTxt.isScrollEnabled = true
         assumptionsTxt.layer.borderWidth = 1.0
         assumptionsTxt.layer.borderColor = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5725490196, alpha: 0.5)
         assumptionsTxt.layer.cornerRadius = 10.0
@@ -61,7 +61,7 @@ class NewSocraticQuestViewController: UIViewController, UITextViewDelegate {
         assumptionsTxt.textColor = UIColor.lightGray
         assumptionsTxt.delegate = self
         
-        allEvidenceTxt.isScrollEnabled = false
+        allEvidenceTxt.isScrollEnabled = true
         allEvidenceTxt.layer.borderWidth = 1.0
         allEvidenceTxt.layer.borderColor = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5725490196, alpha: 0.5)
         allEvidenceTxt.layer.cornerRadius = 10.0
@@ -70,7 +70,7 @@ class NewSocraticQuestViewController: UIViewController, UITextViewDelegate {
         allEvidenceTxt.textColor = UIColor.lightGray
         allEvidenceTxt.delegate = self
         
-        exaggerationTxt.isScrollEnabled = false
+        exaggerationTxt.isScrollEnabled = true
         exaggerationTxt.layer.borderWidth = 1.0
         exaggerationTxt.layer.borderColor = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5725490196, alpha: 0.5)
         exaggerationTxt.layer.cornerRadius = 10.0
@@ -79,7 +79,7 @@ class NewSocraticQuestViewController: UIViewController, UITextViewDelegate {
         exaggerationTxt.textColor = UIColor.lightGray
         exaggerationTxt.delegate = self
         
-        habitOrFactTxt.isScrollEnabled = false
+        habitOrFactTxt.isScrollEnabled = true
         habitOrFactTxt.layer.borderWidth = 1.0
         habitOrFactTxt.layer.borderColor = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5725490196, alpha: 0.5)
         habitOrFactTxt.layer.cornerRadius = 10.0
@@ -88,7 +88,7 @@ class NewSocraticQuestViewController: UIViewController, UITextViewDelegate {
         habitOrFactTxt.textColor = UIColor.lightGray
         habitOrFactTxt.delegate = self
         
-        smonPassTxt.isScrollEnabled = false
+        smonPassTxt.isScrollEnabled = true
         smonPassTxt.layer.borderWidth = 1.0
         smonPassTxt.layer.borderColor = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5725490196, alpha: 0.5)
         smonPassTxt.layer.cornerRadius = 10.0
@@ -97,7 +97,7 @@ class NewSocraticQuestViewController: UIViewController, UITextViewDelegate {
         smonPassTxt.textColor = UIColor.lightGray
         smonPassTxt.delegate = self
         
-        scenarioTxt.isScrollEnabled = false
+        scenarioTxt.isScrollEnabled = true
         scenarioTxt.layer.borderWidth = 1.0
         scenarioTxt.layer.borderColor = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5725490196, alpha: 0.5)
         scenarioTxt.layer.cornerRadius = 10.0

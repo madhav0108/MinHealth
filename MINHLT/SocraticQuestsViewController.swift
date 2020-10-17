@@ -108,6 +108,15 @@ extension SocraticQuestsViewController: UITableViewDelegate, UITableViewDataSour
         return actions
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "viewSocraticQuest") {
+            let viewSocraticQuestViewController = segue.destination as! ViewSocraticQuestViewController
+            
+            if let index = tableView.indexPathForSelectedRow {
+                viewSocraticQuestViewController.questRowIndex = index.row
+            }
+        }
+    }
 }
 
 extension SocraticQuestsViewController {
