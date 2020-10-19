@@ -356,7 +356,7 @@
 		A9B4136A252E9B8C00B8C564 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9BV27BA45C;
 				INFOPLIST_FILE = MINHLT/Info.plist;
@@ -374,7 +374,7 @@
 		A9B4136B252E9B8C00B8C564 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9BV27BA45C;
 				INFOPLIST_FILE = MINHLT/Info.plist;
