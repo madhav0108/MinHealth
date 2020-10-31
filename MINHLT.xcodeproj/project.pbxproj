@@ -30,6 +30,7 @@
 		A9CEDB77252FDE51000FE888 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CEDB76252FDE51000FE888 /* UIViewExt.swift */; };
 		A9CEDB79252FEEA9000FE888 /* AddThoughtRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CEDB78252FEEA9000FE888 /* AddThoughtRecordViewController.swift */; };
 		A9CEDB7B252FFBA5000FE888 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CEDB7A252FFBA5000FE888 /* UIViewControllerExt.swift */; };
+		A9CF7CBA254D7C1300133417 /* MinRndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CF7CB9254D7C1300133417 /* MinRndViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,8 @@
 		A9CEDB76252FDE51000FE888 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		A9CEDB78252FEEA9000FE888 /* AddThoughtRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddThoughtRecordViewController.swift; sourceTree = "<group>"; };
 		A9CEDB7A252FFBA5000FE888 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		A9CF7CB9254D7C1300133417 /* MinRndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinRndViewController.swift; sourceTree = "<group>"; };
+		A9CF7CBC254D7E5E00133417 /* MINHLTv4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MINHLTv4.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,7 @@
 				A98A0ACF2539A7C4005D3C88 /* QuestCell.swift */,
 				A9C6806D25329D1800F17F34 /* ThoughtsOnTrialInfoViewController.swift */,
 				A9C6807025329D4400F17F34 /* LetWorryGoInfoViewController.swift */,
+				A9CF7CB9254D7C1300133417 /* MinRndViewController.swift */,
 			);
 			path = MINHLT;
 			sourceTree = "<group>";
@@ -192,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9CF7CBA254D7C1300133417 /* MinRndViewController.swift in Sources */,
 				A9C6807125329D4400F17F34 /* LetWorryGoInfoViewController.swift in Sources */,
 				A9C6808025347C3B00F17F34 /* MINHLTViewController.swift in Sources */,
 				A9B4135A252E9B8A00B8C564 /* ViewController.swift in Sources */,
@@ -416,12 +421,13 @@
 		A98A0AE2253AD811005D3C88 /* IMWHO.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				A9CF7CBC254D7E5E00133417 /* MINHLTv4.xcdatamodel */,
 				A98A0AE3253AD811005D3C88 /* MINHLTv3.xcdatamodel */,
 				A98A0AE4253AD811005D3C88 /* MINHLTv2.xcdatamodel */,
 				A98A0AE5253AD811005D3C88 /* IMWHO.xcdatamodel */,
 				A98A0AE6253AD811005D3C88 /* MINHLT.xcdatamodel */,
 			);
-			currentVersion = A98A0AE3253AD811005D3C88 /* MINHLTv3.xcdatamodel */;
+			currentVersion = A9CF7CBC254D7E5E00133417 /* MINHLTv4.xcdatamodel */;
 			path = IMWHO.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

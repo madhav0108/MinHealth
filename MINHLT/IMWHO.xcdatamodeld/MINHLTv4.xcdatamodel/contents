@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Quest" representedClassName="Quest" syncable="YES" codeGenerationType="class">
+        <attribute name="allEvidence" optional="YES" attributeType="String"/>
+        <attribute name="assumptions" optional="YES" attributeType="String"/>
+        <attribute name="blacknWhite" optional="YES" attributeType="String"/>
+        <attribute name="evidence" optional="YES" attributeType="String"/>
+        <attribute name="exaggeration" optional="YES" attributeType="String"/>
+        <attribute name="factsOrFeelings" optional="YES" attributeType="String"/>
+        <attribute name="habitOrFact" optional="YES" attributeType="String"/>
+        <attribute name="qTimeStamp" optional="YES" attributeType="String"/>
+        <attribute name="scenario" optional="YES" attributeType="String"/>
+        <attribute name="smonPass" optional="YES" attributeType="String"/>
+        <attribute name="thghtQuesd" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Score" representedClassName="Score" syncable="YES" codeGenerationType="class">
+        <attribute name="highScore" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Thought" representedClassName="Thought" syncable="YES" codeGenerationType="class">
+        <attribute name="alterThght" optional="YES" attributeType="String"/>
+        <attribute name="behavior" optional="YES" attributeType="String"/>
+        <attribute name="emotions" optional="YES" attributeType="String"/>
+        <attribute name="situation" optional="YES" attributeType="String"/>
+        <attribute name="thought" optional="YES" attributeType="String"/>
+        <attribute name="thoughtTitle" optional="YES" attributeType="String"/>
+        <attribute name="timestamp" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Quest" positionX="-63" positionY="36" width="128" height="208"/>
+        <element name="Thought" positionX="-63" positionY="-18" width="128" height="148"/>
+        <element name="Score" positionX="-45" positionY="108" width="128" height="58"/>
+    </elements>
+</model>
