@@ -125,7 +125,6 @@ class MinRndViewController: UIViewController {
         subOnlyBtn.isHidden = true
         divOnlyBtn.isHidden = true
         
-        self.hideKeyboardWhenTappedAround()
     }
     
     func save(completion: (_ finished: Bool) -> ()) {
@@ -166,6 +165,7 @@ class MinRndViewController: UIViewController {
         case 0:
             iceOrFireMode = 0
             timer.invalidate()
+            operts = ["+", "-", "x", "/"]
             currScoreLbl.isHidden = true
             highScoreLbl.isHidden = true
             timeLeftLbl.isHidden = true
