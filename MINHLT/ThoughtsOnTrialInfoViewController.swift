@@ -14,6 +14,8 @@ class ThoughtsOnTrialInfoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         comingSoonIIBtn.layer.cornerRadius = 10.0
+        comingSoonIIBtn.layer.borderWidth = 1.0
+        comingSoonIIBtn.layer.borderColor = #colorLiteral(red: 0, green: 0.4784313725, blue: 1, alpha: 1)
 
         // Do any additional setup after loading the view.
     }
@@ -22,14 +24,16 @@ class ThoughtsOnTrialInfoViewController: UIViewController {
         dismissDetail()
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func rndWrdBtnPressed(_ sender: Any) {
+        guard let minWrdViewController = storyboard?.instantiateViewController(withIdentifier: "MinWrdViewController")
+            else {
+                return
+        }
+        //to switch default annoying card-view to fullscreen-view
+        //using a segue programmatically
+        minWrdViewController.modalPresentationStyle = .fullScreen
+        presentDetail(minWrdViewController)
     }
-    */
+    
 
 }
